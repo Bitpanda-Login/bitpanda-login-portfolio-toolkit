@@ -1,0 +1,48 @@
+{
+  "title": "Bitpanda Portfolio",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect Bitpanda",
+        "description": "Create a Bitpanda Public API key with Read scope. The key is stored by Home Assistant and is never exposed in entity attributes or diagnostics.",
+        "data": {
+          "api_key": "API key"
+        },
+        "data_description": {
+          "api_key": "Bitpanda Account Settings → API → API key with Read scope."
+        }
+      },
+      "reauth_confirm": {
+        "title": "Reconnect Bitpanda",
+        "description": "Replace the expired or revoked API key.",
+        "data": {
+          "api_key": "API key"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not connect to the Bitpanda Public API.",
+      "invalid_auth": "The API key is invalid or lacks Read scope."
+    },
+    "abort": {
+      "already_configured": "This Bitpanda API key is already configured.",
+      "reauth_successful": "Bitpanda was reconnected successfully.",
+      "reauth_failed": "The Bitpanda config entry could not be found."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Bitpanda options",
+        "data": {
+          "scan_interval": "Update interval in seconds",
+          "include_zero_balances": "Include zero-balance assets"
+        },
+        "data_description": {
+          "scan_interval": "Minimum 300 seconds. Bitpanda permits 300 read requests per minute and 3,000 per hour.",
+          "include_zero_balances": "May create many extra entities if Bitpanda returns inactive positions."
+        }
+      }
+    }
+  }
+}

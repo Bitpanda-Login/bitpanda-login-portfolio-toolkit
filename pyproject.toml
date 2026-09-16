@@ -1,0 +1,33 @@
+[project]
+name = "home-assistant-bitpanda"
+version = "0.2.0"
+description = "Read-only Bitpanda Public API portfolio integration for Home Assistant"
+readme = "README.md"
+requires-python = ">=3.14.2"
+license = "MIT"
+authors = [{ name = "keneanung" }]
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "homeassistant",
+    "pytest",
+    "pytest-asyncio",
+    "pytest-homeassistant-custom-component",
+    "ruff",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests", "tests_ha"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 88
+target-version = "py314"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]
+
+[tool.ruff.format]
+quote-style = "double"

@@ -1,0 +1,48 @@
+{
+  "title": "Bitpanda-Portfolio",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Bitpanda verbinden",
+        "description": "Erstelle einen Bitpanda-Public-API-Schlüssel mit Leseberechtigung. Der Schlüssel wird von Home Assistant gespeichert und nie in Entitätsattributen oder Diagnosedaten ausgegeben.",
+        "data": {
+          "api_key": "API-Schlüssel"
+        },
+        "data_description": {
+          "api_key": "Bitpanda Kontoeinstellungen → API → API-Schlüssel mit Leseberechtigung."
+        }
+      },
+      "reauth_confirm": {
+        "title": "Bitpanda neu verbinden",
+        "description": "Ersetze den abgelaufenen oder widerrufenen API-Schlüssel.",
+        "data": {
+          "api_key": "API-Schlüssel"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Die Bitpanda Public API konnte nicht erreicht werden.",
+      "invalid_auth": "Der API-Schlüssel ist ungültig oder besitzt keine Leseberechtigung."
+    },
+    "abort": {
+      "already_configured": "Dieser Bitpanda-API-Schlüssel ist bereits konfiguriert.",
+      "reauth_successful": "Bitpanda wurde erfolgreich neu verbunden.",
+      "reauth_failed": "Der Bitpanda-Konfigurationseintrag wurde nicht gefunden."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Bitpanda-Optionen",
+        "data": {
+          "scan_interval": "Aktualisierungsintervall in Sekunden",
+          "include_zero_balances": "Assets mit Nullbestand einbeziehen"
+        },
+        "data_description": {
+          "scan_interval": "Mindestens 300 Sekunden.",
+          "include_zero_balances": "Kann viele zusätzliche Entitäten erzeugen, falls Bitpanda inaktive Positionen zurückgibt."
+        }
+      }
+    }
+  }
+}

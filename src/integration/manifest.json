@@ -1,0 +1,14 @@
+{
+  "domain": "bitpanda",
+  "name": "Bitpanda Portfolio",
+  "codeowners": [
+    "@keneanung"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/keneanung/home-assistant-bitpanda",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/keneanung/home-assistant-bitpanda/issues",
+  "requirements": [],
+  "version": "0.2.0"
+}

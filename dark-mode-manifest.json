@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "DarkPanda",
+	"version": "1.0.0",
+	"description": "Darkmode for Bitpanda Web UI",
+	"short_name": "DarkPanda",
+	"permissions": [ "activeTab", "declarativeContent" ],
+	"content_scripts": [
+		{
+			"matches": [ "https://web.bitpanda.com/*" ],
+			"css": [ "main.css" ],
+			"js": [ "main.js" ]
+		}
+	],
+	"icons": {
+		"128": "icon_128.png"
+	}
+}

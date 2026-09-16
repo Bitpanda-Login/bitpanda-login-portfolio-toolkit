@@ -1,0 +1,280 @@
+@media (prefers-color-scheme: dark) {
+	.card-interactive {
+		color: #3c3c3c !important;
+	}
+	.bp-navbar {
+		background-color: #212121 !important;
+	}
+
+	.bp-navbar-brand,
+	.pricewatch-tile-chart-container canvas {
+		filter: invert(1) !important;
+	}
+	body,
+	html,
+	bitpanda,
+	.disabled-button,
+	.custom-individual-more-button,
+	.bp-modal-body-section,
+	.mod-general,
+	.bp-form-field.mod-disabled,
+	.cashback__box,
+	.variant__highlight,
+	.bpc-cookie-banner {
+		background-color: #121212 !important;
+		color: #fafafa !important;
+	}
+	.savings-icon {
+		background-color: #121212 !important;
+		color: #19de7f !important;
+	}
+	.card-interactive,
+	.card {
+		background-color: #2d2d2d !important;
+	}
+	.portfolio-widget-show-all {
+		background: linear-gradient(0deg, rgb(0 0 0 / 67%) 5%, rgb(0 0 0 / 0%) 100%) !important;
+	}
+	savings-list,
+	.savings_component__empty_state_text,
+	.savings_component__empty_state_button,
+	.header-title,
+	.tabbar > .default,
+	.title,
+	.transaction-header-grid-item .information-header-title .information-trade-title,
+	.price-chart-tile-content,
+	.bp-navbar-button.mod-inverse,
+	.bp-navbar-nav-link,
+	.portfolio-widget-container,
+	best-widget > bp-tile,
+	.asset-tile-top,
+	.headline-base,
+	.btn.filter-button,
+	.filter-button,
+	.column__name.header,
+	.column__price.header,
+	.column__price.header,
+	.column__marketcap.header,
+	.column__change.header,
+	.column__graph.header,
+	.color-text,
+	.tradable-detail-info__details_item_label,
+	.stocks-detail__recommendation_action,
+	.stocks-detail__chart_subheader,
+	.pricewatch-tile-amount-current-value,
+	.list__item__name,
+	.column__marketcap,
+	.number-style-title,
+	.number-style-desc,
+	.btn-primary.btn-inverse,
+	.bp-navbar-account-overlay-link,
+	.bp-navbar-account-overlay-link-small,
+	.transaction-list-detail__total-amount,
+	.transaction-list-detail__recipient-information,
+	.transaction-list-footer-pid,
+	.transaction-list-header__close-icon-wrapper,
+	.bp-modal-description,
+	.portfolio__reset_button,
+	.modal-add-info-headline,
+	.btn-primary,
+	.my-account-headline,
+	.secondary-navigation-sub-link,
+	.secondary-navigation-main-link,
+	.form-label,
+	label,
+	.card-title__item,
+	.card-title__item__name,
+	.cashback__title,
+	.gray-box__left__title,
+	.gray-box__right__item__text,
+	.tradable-list-item__legend_container,
+	.text-title,
+	.wallet-details-header__masthead__amount,
+	.actionbutton__wrapper .actionbutton,
+	.empty-headline,
+	.form-text-inside-counter,
+	.bp-input-info,
+	.text-gray,
+	.account-user-email,
+	.info-text,
+	.color-black,
+	.fiat-tile-amount-small,
+	.fiat-tile-amount-big,
+	.text-summary-description,
+	.my-account-section-content,
+	.best-stats-remaining-container,
+	.transaction-list-detail__recipient-information .mod-header,
+	.main-description-color,
+	.my-account-section-description,
+	.sessions-table-col,
+	.sessions-table-col *,
+	div.my-account-section-content div.sessions-table-col.mod-client > span,
+	.transactions-list-separator {
+		color: #fafafa !important;
+	}
+	.transaction-header-grid-item .recipient-information {
+		color: #dadada !important;
+	}
+	.transaction-list-header__container {
+		background-color: #212121 !important;
+		color: #fafafa !important;
+		border-radius: 0px !important;
+	}
+	.asset-tile-amount-crypto,
+	.my-assets-fiat-sum {
+		color: #dadada !important;
+	}
+	.search-toolbar {
+		background-color: #484848 !important;
+	}
+	.best-widget__info_field,
+	.bp-modal {
+		background-color: #0e0e0e !important;
+	}
+	.best-fee-collection__info_field,
+	.form-field {
+		background-color: #0e0e0e !important;
+		color: #fafafa !important;
+	}
+	.my-assets-asset-sum,
+	.stocks-detail__recommendation_footer,
+	.fiat-tile-currency-text {
+		color: #ffffff !important;
+	}
+	.index-holdings__donut-inner {
+		fill: #0a0a0a !important;
+	}
+	.bp-navbar-account-overlay-inner {
+		background-color: #272727 !important;
+	}
+	.bp-navbar-main {
+		background-color: #212121 !important;
+	}
+	.portfolio-widget-key-amount-fiat {
+		color: #bfbfbf !important;
+	}
+	.transaction-list-header__top,
+	.transaction-list-detail__background,
+	.transaction-list-footer-container,
+	.loader,
+	.preloader-container,
+	.preloader {
+		background-color: #212121 !important;
+	}
+	.tradable-list-item__item_container * {
+		color: #fafafa !important;
+	}
+
+	.provider-tile-container,
+	.bp-form-field {
+		background-color: #0e0e0e !important;
+		color: #fafafa !important;
+	}
+	.card-disabled > * {
+		opacity: .8;
+	}
+	.asset-item .asset-tile-amount-fiat {
+		color: #fff !important;
+		opacity: 1 !important;
+	}
+	.price-up,
+	.header-title-icon,
+	.segment .segment-button,
+	.asset-tile-amount-profit,
+	.green-text,
+	.color-primary,
+	.my-account-section-content-logout-link .bpi__icon-logout,
+	a {
+		color: #19de7f !important;
+	}
+	.best-widget__fiat_amount {
+		color: #bfbfbf !important;
+	}
+	.bp-navbar-button {
+		color: #121212 !important;
+	}
+	.content-portfolio.content table > tr:nth-child(2) > td:nth-child(2) > div > canvas:nth-child(2),
+	.content-portfolio.content table > tr:nth-child(2) > td:nth-child(2) > div > canvas:nth-child(1),
+	bp-portfolio-chart table > tr:nth-child(2) > td:nth-child(2) > div > canvas:nth-child(2),
+	bp-portfolio-chart table > tr:nth-child(2) > td:nth-child(2) > div > canvas:nth-child(1) {
+		filter: invert(1) !important;
+	}
+	.rate-indicator.mod-up {
+		border-bottom: 13px solid #19de7f !important;
+	}
+	.symbol-text-tile.is-muted {
+		opacity: .5 !important;
+	}
+	.segment .segment-button.segment-button-selected {
+		color: #0a0a0a !important;
+	}
+	.red-text {
+		color: #ffc107 !important;
+	}
+	.bp-navbar-account-overlay-button-display {
+		background-color: rgb(33 33 33) !important;
+	}
+	.asset-tile-amount-profit.loss {
+		color: #ffc107 !important;
+	}
+	.wallet-details-header__masthead__title__edit-icon,
+	.bpi__icon-bell-plus,
+	.pricewatch-tile .tooltip-asset-detail {
+		color: #19de7f !important;
+		opacity: 1 !important;
+	}
+	.btn-primary.btn-inverse:hover {
+		background-color: #0a0a0a !important;
+		color: #fafafa !important;
+	}
+	.main-item-container:hover {
+		background-color: rgb(0 0 0 / 50%) !important;
+	}
+	.form-on-off-switch-inner {
+		background-color: #121212 !important;
+	}
+	.variant__highlight {
+		background-image: none !important;
+	}
+	.btn-summary.mod-amount {
+		color: #000000 !important;
+	}
+
+	.bpc-cookie-banner {
+		background-color: #0c0c0c;
+		color: #ffffff !important;
+	}
+	.bpc-cookie-banner a {
+		color: #ffffff !important;
+	}
+	.bpc-cookie-banner__settings-button {
+		color: #27d17f;
+	}
+	.ng-select.ng-select-opened > .ng-select-container,
+	.ng-select .ng-select-container {
+		background: #2d2d2d !important;
+		background-color: #2d2d2d !important;
+	}
+	.secondary-navigation-main-link .is-active {
+		background: #27d17f94 !important;
+		color: #000 !important;
+		border-radius: .5rem !important;
+		padding-left: 1rem !important;
+	}
+	.secondary-navigation-main-link .is-active .secondary-navigation-main-link__icon {
+		color: #000 !important;
+	}
+	.api-keys-table-row.mod-head {
+		color: #f3f3f3 !important;
+		background-color: #0e0e0e !important;
+	}
+	.empty-text {
+		color: #e0e0e0 !important;
+	}
+	.btn-primary,
+	.btn-primary.focus,
+	.btn-primary:focus,
+	.btn-primary:hover {
+		color: #000;
+	}
+}
